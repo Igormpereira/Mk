@@ -1,0 +1,3 @@
+medida1-Soma = Sum('tabela'[coluna que quero somar])
+medida2-Soma todas creations = CALCULATE([Soma],All('tabela'[parametro]))
+medida3-% = DIVIDE([Soma],[Soma todas creations])
